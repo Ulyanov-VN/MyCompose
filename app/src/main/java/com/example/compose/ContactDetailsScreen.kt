@@ -35,7 +35,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.viewinterop.AndroidView
 
 data class Contact(
-    val name: String, // Имя
+    val name: String, // Имя!
     val surname: String? = null, // Отчество
     val familyName: String, // Фамилия
     val imageRes: Int? = null, // Ресурс фотографии
